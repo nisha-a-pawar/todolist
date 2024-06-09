@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+       
+        <div class="todo-creator">
+             <!-- <h3 class="title">To Do List</h3> -->
+        
+                <label for="input-task" aria-label="input-task" class="label">Enter Task</label>
+                <input type="text" id="input-task" name="input-task" class="input-task">
+           
+                 <div class="operations">
+                    <button type="submit" id="addTask" class="btn">Add Task</button>
+                    <button type="submit" id="deleteTask" class="btn">Remove Task</button>
+                 </div>
+                
+           
+            
+       </div>
+
+       <div class="todo-container">
+        <ol id="taskItems">
+            <!-- <li class="item">Brush</li>
+            <li class="item">Code</li> 
+            <li class="item">Yoga</li>
+            <li class="item">Reading</li>
+            <li class="item">Listen Podcast</li> -->
+        </ol>
+       </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
